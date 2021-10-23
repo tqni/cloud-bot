@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "repository": "https://github.com/tqni/cloud-bot",
+  "logo": "https://cdn.cloudflare.steamstatic.com/steamcommunity/public/images/items/1069740/efed46d1734d89af92cb129d90f5bad75c68e647.gif",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
@@ -15,7 +15,7 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": ""
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -35,11 +35,11 @@
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "اهلا بك {first}\n\nانا بوت التخزين السحابي الخاص بقناة @SyrianTM \nالبوت غير متاح للجميع فقط اقوم بتخزين بيانات المطور"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "اهلا بك {first}\n\n<b>يجب عليك الاشتراك في قناتنا على التيليجرام لتستفيد من خدماتي\n\nولتصلك جميع بيانات المخزنة في سيرفري</b>"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
